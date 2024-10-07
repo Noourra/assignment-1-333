@@ -34,3 +34,39 @@ table th, table td {
     text-align: left;
 }
 
+table th {
+    background-color: #ff9966;
+    color: white;
+}
+
+/* Photo Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns:
+        repeat (auto-fit, minmax (200px, 1fr));
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*Footer*/
+footer {
+    background-color: #ffcc99;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Responsive design*/
+media (max-width : 600px) {
+    nav ul {
+        flex direction: coloumn;
+    }
+
+    nav ul {
+        margin-bottom: 10px;
+    }
+}
+
