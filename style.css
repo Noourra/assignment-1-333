@@ -6,7 +6,14 @@ body {
     color: #333;
 }
 
-
+header{
+    background-color: #ffcc66;
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    color: white;
+}
 
 
 
@@ -18,6 +25,11 @@ main {
 
 /* Section styles */
 section {
+    background-color: #fff5ee;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
 }
 
@@ -26,6 +38,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    background-color: #ffcc99;
 }
 
 table th, table td {
@@ -37,6 +50,7 @@ table th, table td {
 table th {
     background-color: #ff9966;
     color: white;
+    padding: 10px;
 }
 
 /* Photo Gallery */
@@ -60,13 +74,14 @@ footer {
 }
 
 /*Responsive design*/
-media (max-width : 600px) {
+@media (max-width : 600px) {
     nav ul {
-        flex direction: coloumn;
+        flex-direction: coloumn;
     }
 
     nav ul {
         margin-bottom: 10px;
     }
-}
+} 
+
 
