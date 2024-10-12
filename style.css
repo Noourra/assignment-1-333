@@ -47,6 +47,22 @@ section {
     margin-bottom: 40px;
 }
 
+.gallery {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.gallery img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
 
 table {
     width: 100%;
