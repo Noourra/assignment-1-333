@@ -2,14 +2,16 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff;
+    background-color: #e0f7fa;
     color: #333;
 }
 
 header{
-    background-color: #ffcc66;
+    background-color: #ffcc99;
     padding: 20px;
     text-align: center;
+    border-bottom: 5px solid #ff9966;
+    border-radius: 10px;
 }
 nav ul{
     list-style-type: none;
@@ -18,13 +20,17 @@ nav ul{
 }
 nav ul li a {
     text-decoration: none;
+    font-size: 20px;
     color: black;
-    padding: 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    padding: 12px 24px;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.2s;
     font-weight: 500;
 }
-
+nav ul li a: hover {
+    background-color: #ff6600
+        transform: scale(1.05);
+    
 header h1{
     color: black;
 }
