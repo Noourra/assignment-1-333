@@ -24,12 +24,9 @@ nav ul li a {
     color: black;
     padding: 12px 24px;
     border-radius: 15px;
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background-color 0.3s;
     font-weight: 500;
 }
-nav ul li a: hover {
-    background-color: #ff6600
-        transform: scale(1.05);
     
 header h1{
     color: black;
