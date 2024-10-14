@@ -3,14 +3,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f3e5f5;
-    color: #333;
+    color: black;
 }
 
 header{
-    background-color: #ffcc99;
+    background-color: #720e9e;
     padding: 20px;
     text-align: center;
-    border-bottom: 5px solid #ffb380;
+    border-bottom: 5px solid #1d1160;
     border-radius: 10px;
 }
 nav ul{
@@ -77,7 +77,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background-color: #ffcc99;
+    background-color: #DDA0DD;
 }
 
 table th, table td {
@@ -87,7 +87,7 @@ table th, table td {
 }
 
 table th {
-    background-color: #ff9966;
+    background-color: #D8BFD8;
     color: white;
     padding: 10px;
 }
@@ -107,7 +107,7 @@ table th {
 
 /*Footer*/
 footer {
-    background-color: #ffcc99;
+    background-color: #720e9e;
     padding: 10px;
     text-align: center;
 }
